@@ -10,6 +10,8 @@
 		4023C7641C67AD6D00EEB929 /* MelonStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4023C7631C67AD6D00EEB929 /* MelonStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4023C76B1C67AD6D00EEB929 /* MelonStyleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4023C7601C67AD6D00EEB929 /* MelonStyleKit.framework */; };
 		4023C7701C67AD6D00EEB929 /* MelonStyleKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023C76F1C67AD6D00EEB929 /* MelonStyleKitTests.m */; };
+		40EC5E861C8ADD9300459F17 /* MBFStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EC5E841C8ADD9300459F17 /* MBFStyleKit.h */; };
+		40EC5E871C8ADD9300459F17 /* MBFStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EC5E851C8ADD9300459F17 /* MBFStyleKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		4023C76A1C67AD6D00EEB929 /* MelonStyleKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonStyleKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4023C76F1C67AD6D00EEB929 /* MelonStyleKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelonStyleKitTests.m; sourceTree = "<group>"; };
 		4023C7711C67AD6D00EEB929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EC5E841C8ADD9300459F17 /* MBFStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFStyleKit.h; sourceTree = "<group>"; };
+		40EC5E851C8ADD9300459F17 /* MBFStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFStyleKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		4023C7621C67AD6D00EEB929 /* MelonStyleKit */ = {
 			isa = PBXGroup;
 			children = (
+				40EC5E831C8ADD7D00459F17 /* StyleKit */,
 				4023C7631C67AD6D00EEB929 /* MelonStyleKit.h */,
 				4023C7651C67AD6D00EEB929 /* Info.plist */,
 			);
@@ -86,6 +91,15 @@
 			path = MelonStyleKitTests;
 			sourceTree = "<group>";
 		};
+		40EC5E831C8ADD7D00459F17 /* StyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				40EC5E841C8ADD9300459F17 /* MBFStyleKit.h */,
+				40EC5E851C8ADD9300459F17 /* MBFStyleKit.m */,
+			);
+			name = StyleKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4023C7641C67AD6D00EEB929 /* MelonStyleKit.h in Headers */,
+				40EC5E861C8ADD9300459F17 /* MBFStyleKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EC5E871C8ADD9300459F17 /* MBFStyleKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +390,7 @@
 				4023C7761C67AD6D00EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4023C7771C67AD6D00EEB929 /* Build configuration list for PBXNativeTarget "MelonStyleKitTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +399,7 @@
 				4023C7791C67AD6D00EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
